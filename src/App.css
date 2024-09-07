@@ -1,0 +1,43 @@
+.App{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.textArea{
+  flex: 1;
+  overflow-y: auto;
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100%;
+
+}
+
+.Toolbar{
+  width: 30%;
+  margin-right: 3%;
+  height: 100%;
+}
+
+h1{
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size:300%;
+}
+
+.quill{
+  height: 100%;
+}
+
+.ql-container{
+  border-radius: 5px;
+}
+
+.ql-toolbar{
+  border-radius: 5px;
+}
+
